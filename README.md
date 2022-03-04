@@ -1,6 +1,6 @@
 # Zippy Ransom
 
-### Disclaimer: This software is meant for educational purposes only.
+### Disclaimer: This software is meant for educational purposes only. Do not lose the password you set or your files may not be recoverable.
 
 Given a file path it will zip/unzip every file and iterate through the all subdirectories.
 

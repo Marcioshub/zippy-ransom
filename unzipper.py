@@ -18,7 +18,7 @@ def main():
 
         # ensure password is not blank
         if passwd == "" or passwd.strip() == "":
-            raise Exception("Password cannot be blank")
+            raise Exception("Password cannot be empty")
 
         # iterate through dictories starting with the path given
         for root, dirs, files in os.walk(path, topdown=False):
@@ -35,14 +35,13 @@ def main():
                         os.remove(inpt) 
 
             except Exception as e:
-                print("Error 2:", e)
+                print(e)
                 continue
 
 
         print("Files has been unzipped!")
 
     except Exception as e:
-        print("Error 1")
         sys.exit(e)
     
 if __name__=="__main__":
