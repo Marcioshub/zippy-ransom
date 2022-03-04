@@ -2,7 +2,7 @@ import os, sys, pyminizip, getpass, zipfile
 import pyfiglet
 
 def banner():
-    ascii_banner = pyfiglet.figlet_format("Zippy Ransome - Unzipper")
+    ascii_banner = pyfiglet.figlet_format("Zippy Ransom - Unzipper")
     print(ascii_banner)
 
 def main():
